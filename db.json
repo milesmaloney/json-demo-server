@@ -1,18 +1,17 @@
 {
-  "stations": [
-    {"id":"0", "incoming":"1", "outgoing":"1", "zone":"0", "passavail":"0,1,2,3,4,5"},
-    {"id":"1", "incoming":"0,2", "outgoing":"0,2", "zone":"1", "passavail":"0,1,3,4"},
-    {"id":"2", "incoming":"1", "outgoing":"1", "zone":"2", "passavail":"0,1,2,3,4,5"}
+  "Station": [
+    {"StationID":"0", "Zone":"0"}
     ],
-  "passes": [
-    {"id":"0", "zonesToTravel":"0", "price":"1.00", "roundTrip":"0"},
-    {"id":"1", "zonesToTravel":"1", "price":"2.00", "roundTrip":"0"},
-    {"id":"2", "zonesToTravel":"2", "price":"3.00", "roundTrip":"0"},
-    {"id":"3", "zonesToTravel":"0", "price":"1.75", "roundTrip":"1"}, 
-    {"id":"4", "zonesToTravel":"1", "price":"3.50", "roundTrip":"1"},
-    {"id":"5", "zonesToTravel":"2", "price":"5.25", "roundTrip":"1"}
+  "TransitLine": [
+    {"LineID":"0", "Departure":"0", "Destination":"1", "ETA":"1:00", "AvgTravelTime":"0:05", "TransitType":"Subway", "ZonesCovered":"1"}
     ],
-    "profile": {
+  "Customer": [
+    {"CustomerID":"0", "Name":"Charles Greenburg", "CreditCard":"41325367753234", "CVV":"124", "Exp":"05/23", "Billing Address":"3245 Colotine Ave, Spokane, WA 45339"}
+    ],
+  "Pass": [
+    {"PassID":"2", "CustomerID":"0", "PaymentReceiptNo":"12", "Price":"3.25", "IsValid":"1"}
+    ],
+  "profile": {
     "name": "milesmaloney"
   }
 }
