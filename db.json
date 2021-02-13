@@ -1,12 +1,12 @@
 {
   "Station": [
-    {"StationID":"0", "Zone":"0"};
-    {"StationID":"1", "Zone":"1"};
+    {"StationID":"0", "Zone":"0"},
+    {"StationID":"1", "Zone":"1"},
     {"StationID":"2", "Zone":"2"}
     ],
   "TransitLine": [
-    {"LineID":"0", "Departure":"0", "Destination":"1", "ETA":"1:00", "AvgTravelTime":"0:05", "TransitType":"Subway", "ZonesCovered":"1"};
-    {"LineID":"1", "Departure":"1", "Destination":"2", "ETA":"1:06", "AvgTravelTime":"0:08", "TransitType":"Subway", "ZonesCovered":"1"};
+    {"LineID":"0", "Departure":"0", "Destination":"1", "ETA":"1:00", "AvgTravelTime":"0:05", "TransitType":"Subway", "ZonesCovered":"1"},
+    {"LineID":"1", "Departure":"1", "Destination":"2", "ETA":"1:06", "AvgTravelTime":"0:08", "TransitType":"Subway", "ZonesCovered":"1"},
     {"LineID":"2", "Departure":"2", "Destination":"0", "ETA":"1:13", "AvgTravelTime":"0:17", "TransitType":"Subway", "ZonesCovered":"2"}
     ],
   "Customer": [
